@@ -10,7 +10,7 @@ function buildPrompt(subjectName, styleName, userTouch = '') {
 }
 
 function buildImageUrl(prompt) {
-    const negativePrompt = 'low quality, blurry, jpeg artifacts, overexposed, underexposed, watermark, logo, text, signature';
+    const negativePrompt = 'low quality, blurry, jpeg artifacts, overexposed, underexposed, watermark, logo, text, signature, human, hands, humanoid, legs';
     return `https://gen.pollinations.ai/image/${encodeURIComponent(prompt)}?model=zimage&width=1080&height=1920&safe=true&enhance=true&seed=${getRandomSeed()}&negative_prompt=${encodeURIComponent(negativePrompt)}&key=${DEFAULT_API_KEY}`;
 }
 
