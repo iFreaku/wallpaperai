@@ -4,11 +4,18 @@ let currentResultUrl = null;
 let resultImages     = [];
 let activeResultIdx  = 0;
 
+let SUBJECTS = [];
+let STYLES   = [];
+
 async function loadPresets() {
     const res = await fetch('https://raw.githubusercontent.com/iFreaku/wallpaperai/main/assets/presets.json');
     const data = await res.json();
-    buildCarousel('subjectCarousel', data.presets.subjects, 'subject');
-    buildCarousel('styleCarousel',   data.presets.styles,   'style');
+
+    SUBJECTS = data.presets.subjects;
+    STYLES   = data.presets.styles;
+
+    buildCarousel('subjectCarousel', SUBJECTS, 'subject');
+    buildCarousel('styleCarousel',   STYLES,   'style');
 }
 
 function buildCarousel(containerId, items, type) {
@@ -21,7 +28,7 @@ function buildCarousel(containerId, items, type) {
         card.style.backgroundImage    = `url('${item.placeholder}')`;
         card.style.backgroundSize     = 'cover';
         card.style.backgroundPosition = 'center';
-        card.dataset.name = item.name;
+        card.dataset.index = index;
 
         const label = document.createElement('span');
         label.className   = 'card-label';
@@ -30,8 +37,8 @@ function buildCarousel(containerId, items, type) {
         container.appendChild(card);
     });
 
-    if (type === 'subject') selectedSubject = items[0].name;
-    if (type === 'style')   selectedStyle   = items[0].name;
+    if (type === 'subject') selectedSubject = items[0];
+    if (type === 'style')   selectedStyle   = items[0];
 
     container.addEventListener('scroll', () => onCarouselScroll(container, type));
 
@@ -53,10 +60,14 @@ function onCarouselScroll(container, type) {
     });
 
     cards.forEach(c => c.classList.remove('active'));
+
     if (closestCard) {
         closestCard.classList.add('active');
-        if (type === 'subject') selectedSubject = closestCard.dataset.name;
-        if (type === 'style')   selectedStyle   = closestCard.dataset.name;
+
+        const index = parseInt(closestCard.dataset.index);
+
+        if (type === 'subject') selectedSubject = SUBJECTS[index];
+        if (type === 'style')   selectedStyle   = STYLES[index];
     }
 }
 
@@ -64,7 +75,6 @@ function showPage(id) {
     document.querySelectorAll('.page').forEach(p => p.classList.add('hidden'));
     document.getElementById(id).classList.remove('hidden');
 }
-
 
 function addResultCard(url) {
     const carousel = document.getElementById('resultCarousel');
@@ -112,33 +122,33 @@ function updateResultActive(index) {
     currentResultUrl = resultImages[index];
 }
 
-
 async function runGenerate() {
     if (!selectedSubject || !selectedStyle) return;
 
     const touch = document.getElementById('touchInput').value.trim();
 
     document.getElementById('processingSubLabel').textContent =
-        `${selectedSubject} × ${selectedStyle}`;
+        `${selectedSubject.name} × ${selectedStyle.name}`;
     showPage('processingPage');
 
     try {
         const { url } = await generateWallpaper(selectedSubject, selectedStyle, touch);
 
-        const img    = new Image();
+        const img = new Image();
         img.onload = () => {
-            document.getElementById('resultTitle').textContent    = `${selectedSubject}`;
-            document.getElementById('resultSubtitle').textContent = `in ${selectedStyle}`;
+            document.getElementById('resultTitle').textContent    = selectedSubject.name;
+            document.getElementById('resultSubtitle').textContent = `in ${selectedStyle.name}`;
 
-            addToHistory(url, selectedSubject, selectedStyle);
+            addToHistory(url, selectedSubject.name, selectedStyle.name);
 
             addResultCard(url);
             showPage('resultPage');
         };
 
-        img.onerror  = () => {
+        img.onerror = () => {
             document.getElementById('processingSubLabel').textContent = 'Failed. Go back and try again.';
         };
+
         img.src = url;
 
     } catch (e) {
@@ -172,8 +182,8 @@ document.getElementById('surpriseBtn').addEventListener('click', () => {
         behavior: 'smooth'
     });
 
-    selectedSubject = subjectCard.dataset.name;
-    selectedStyle   = styleCard.dataset.name;
+    selectedSubject = SUBJECTS[parseInt(subjectCard.dataset.index)];
+    selectedStyle   = STYLES[parseInt(styleCard.dataset.index)];
 
     resultImages = [];
     document.getElementById('resultCarousel').innerHTML = '';
@@ -182,14 +192,12 @@ document.getElementById('surpriseBtn').addEventListener('click', () => {
     setTimeout(() => runGenerate(), 1000);
 });
 
-
 document.addEventListener('DOMContentLoaded', () => {
 
     document.getElementById('historyBtn').addEventListener('click', () => {
         renderHistory();
         showPage('historyPage');
     });
-
 
     document.getElementById('generateBtn').addEventListener('click', () => {
         resultImages = [];
@@ -201,16 +209,19 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('recreateBtn').addEventListener('click', () => {
         showPage('processingPage');
         document.getElementById('processingSubLabel').textContent =
-            `${selectedSubject} × ${selectedStyle}`;
+            `${selectedSubject.name} × ${selectedStyle.name}`;
         runGenerate();
     });
 
     document.getElementById('downloadBtn').addEventListener('click', () => {
         if (!currentResultUrl) return;
-        const a   = document.createElement('a');
-        a.href    = currentResultUrl;
-        a.download = `wallpaper-${selectedSubject}-${selectedStyle}.jpg`.replace(/\s+/g, '-').toLowerCase();
-        a.target  = '_blank';
+
+        const a = document.createElement('a');
+        a.href = currentResultUrl;
+        a.download = `wallpaper-${selectedSubject.name}-${selectedStyle.name}.jpg`
+            .replace(/\s+/g, '-')
+            .toLowerCase();
+        a.target = '_blank';
         a.click();
     });
 
