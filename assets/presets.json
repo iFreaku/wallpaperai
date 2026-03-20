@@ -99,7 +99,7 @@
       {
         "name": "Motorbike",
         "placeholder": "assets/presets/subjects/bikes.jpg",
-        "prompt": "motorbike, mechanical details, metallic surfaces, dynamic composition"
+        "prompt": "sports bike, motorbike, parked, metallic surfaces, dynamic composition"
       },
       {
         "name": "Botanical",
