@@ -251,7 +251,7 @@
       {
         "name": "Minecraft",
         "placeholder": "assets/presets/styles/minecraft.jpg",
-        "prompt": "voxel style, blocky shapes, cubic forms, game-like world"
+        "prompt": "3D voxel style, 3D blocky shapes, 3D cubic forms, game-like world"
       },
       {
         "name": "Stardew Valley",
