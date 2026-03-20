@@ -1,0 +1,99 @@
+.page {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.hidden { display: none !important; }
+
+.processing {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #c0c0c0;
+    padding: 20px 0;
+}
+
+.processing-header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    flex-shrink: 0;
+}
+
+.processing-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 600;
+    color: #111;
+}
+
+.processing-body {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.processing-animation {
+    position: relative;
+    width: 180px;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.orbit-ring {
+    position: absolute;
+    border-radius: 50%;
+    border: 1.5px solid rgba(0,0,0,0.15);
+    animation: spin 3s linear infinite;
+}
+
+.orbit-ring:nth-child(1) { width: 180px; height: 180px; animation-duration: 3s; }
+.orbit-ring.ring2        { width: 130px; height: 130px; animation-duration: 2s; animation-direction: reverse; }
+.orbit-ring.ring3        { width: 80px;  height: 80px;  animation-duration: 1.5s; }
+
+.orbit-dot {
+    position: absolute;
+    top: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #555;
+    box-shadow: -2px -2px 4px #7f7f7f, 2px 2px 4px #fff;
+}
+
+@keyframes spin {
+    from { transform: rotate(0deg); }
+    to   { transform: rotate(360deg); }
+}
+
+.processing-center-text {
+    position: absolute;
+    text-align: center;
+    font-family: 'EB Garamond', serif;
+    font-size: 12px;
+    color: #555;
+    padding: 0 12px;
+    z-index: 2;
+}
+
+.processing-hint {
+    font-family: 'EB Garamond', serif;
+    font-size: 15px;
+    color: #666;
+    font-style: italic;
+}

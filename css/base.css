@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #c0c0c0;
+    height: 100dvh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.app-container {
+    width: 100%;
+    max-width: 430px;
+    height: 100dvh;
+    background: #c0c0c0;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+@media (max-width: 480px) {
+    .app-container { max-width: 100%; }
+}
+
+@media (min-width: 481px) {
+    .app-container {
+        box-shadow: 0 0 40px rgba(0,0,0,0.3);
+    }
+}

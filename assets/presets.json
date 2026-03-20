@@ -1,0 +1,212 @@
+{
+  "presets": {
+    "subjects": [
+      {
+        "name": "Sky",
+        "placeholder": "assets/presets/subjects/sky.jpg"
+      },
+      {
+        "name": "Terrain",
+        "placeholder": "assets/presets/subjects/terrain.jpg"
+      },
+      {
+        "name": "Still Life",
+        "placeholder": "assets/presets/subjects/stilllife.jpg"
+      },
+      {
+        "name": "Iridescence",
+        "placeholder": "assets/presets/subjects/iridescence.jpg"
+      },
+      {
+        "name": "Floral",
+        "placeholder": "assets/presets/subjects/floral.jpg"
+      },
+      {
+        "name": "Ocean",
+        "placeholder": "assets/presets/subjects/ocean.jpg"
+      },
+      {
+        "name": "Forest",
+        "placeholder": "assets/presets/subjects/forest.jpg"
+      },
+      {
+        "name": "Galaxy",
+        "placeholder": "assets/presets/subjects/galaxy.jpg"
+      },
+      {
+        "name": "Desert",
+        "placeholder": "assets/presets/subjects/desert.jpg"
+      },
+      {
+        "name": "Aurora",
+        "placeholder": "assets/presets/subjects/aurora.jpg"
+      },
+      {
+        "name": "Birds",
+        "placeholder": "assets/presets/subjects/birds.jpg"
+      },
+      {
+        "name": "Fish",
+        "placeholder": "assets/presets/subjects/fish.jpg"
+      },
+      {
+        "name": "Animals",
+        "placeholder": "assets/presets/subjects/animals.jpg"
+      },
+      {
+        "name": "Mountains",
+        "placeholder": "assets/presets/subjects/mountains.jpg"
+      },
+      {
+        "name": "Underwater",
+        "placeholder": "assets/presets/subjects/underwater.jpg"
+      },
+      {
+        "name": "Architecture",
+        "placeholder": "assets/presets/subjects/architecture.jpg"
+      },
+      {
+        "name": "Cherry Blossom",
+        "placeholder": "assets/presets/subjects/cherryblossom.jpg"
+      },
+      {
+        "name": "Crystals",
+        "placeholder": "assets/presets/subjects/crystals.jpg"
+      },
+      {
+        "name": "Cars",
+        "placeholder": "assets/presets/subjects/cars.jpg"
+      },
+      {
+        "name": "Bikes",
+        "placeholder": "assets/presets/subjects/bikes.jpg"
+      },
+      {
+        "name": "Botanical",
+        "placeholder": "assets/presets/subjects/botanical.jpg"
+      },
+      {
+        "name": "Space",
+        "placeholder": "assets/presets/subjects/space.jpg"
+      },
+      {
+        "name": "Fireflies",
+        "placeholder": "assets/presets/subjects/fireflies.jpg"
+      },
+      {
+        "name": "Misty Woods",
+        "placeholder": "assets/presets/subjects/mistywoods.jpg"
+      }
+    ],
+    "styles": [
+      {
+        "name": "Black & White",
+        "placeholder": "assets/presets/styles/black_white.jpg"
+      },
+      {
+        "name": "Oil Painting",
+        "placeholder": "assets/presets/styles/oilpainting.jpg"
+      },
+      {
+        "name": "Ink",
+        "placeholder": "assets/presets/styles/ink.jpg"
+      },
+      {
+        "name": "Modernist",
+        "placeholder": "assets/presets/styles/modernist.jpg"
+      },
+      {
+        "name": "Photograph",
+        "placeholder": "assets/presets/styles/photograph.jpg"
+      },
+      {
+        "name": "2D Minimal Vector Graphics",
+        "placeholder": "assets/presets/styles/graphic.jpg"
+      },
+      {
+        "name": "Watercolor",
+        "placeholder": "assets/presets/styles/watercolor.jpg"
+      },
+      {
+        "name": "Neon",
+        "placeholder": "assets/presets/styles/neon.jpg"
+      },
+      {
+        "name": "Minimal",
+        "placeholder": "assets/presets/styles/minimal.jpg"
+      },
+      {
+        "name": "Cinematic",
+        "placeholder": "assets/presets/styles/cinematic.jpg"
+      },
+      {
+        "name": "Vintage",
+        "placeholder": "assets/presets/styles/vintage.jpg"
+      },
+      {
+        "name": "Sketch",
+        "placeholder": "assets/presets/styles/sketch.jpg"
+      },
+      {
+        "name": "Dark",
+        "placeholder": "assets/presets/styles/dark.jpg"
+      },
+      {
+        "name": "Cyberpunk",
+        "placeholder": "assets/presets/styles/cyberpunk.jpg"
+      },
+      {
+        "name": "Lo-Fi",
+        "placeholder": "assets/presets/styles/lo-fi.jpg"
+      },
+      {
+        "name": "3D Render",
+        "placeholder": "assets/presets/styles/3drender.jpg"
+      },
+      {
+        "name": "Nostalgic",
+        "placeholder": "assets/presets/styles/nostalgic.jpg"
+      },
+      {
+        "name": "Art Deco",
+        "placeholder": "assets/presets/styles/artdeco.jpg"
+      },
+      {
+        "name": "Dreamy",
+        "placeholder": "assets/presets/styles/dreamy.jpg"
+      },
+      {
+        "name": "Geometric",
+        "placeholder": "assets/presets/styles/geometric.jpg"
+      },
+      {
+        "name": "Textured",
+        "placeholder": "assets/presets/styles/textured.jpg"
+      },
+      {
+        "name": "Impressionist",
+        "placeholder": "assets/presets/styles/impressionist.jpg"
+      },
+      {
+        "name": "Surreal",
+        "placeholder": "assets/presets/styles/surreal.jpg"
+      },
+      {
+        "name": "Ethereal",
+        "placeholder": "assets/presets/styles/ethereal.jpg"
+      },
+      {
+        "name": "8 Bit Pixel Art",
+        "placeholder": "assets/presets/styles/pixel.jpg"
+      },
+      {
+        "name": "Minecraft",
+        "placeholder": "assets/presets/styles/minecraft.jpg"
+      },
+      {
+        "name": "Stardew Valley, Pixel Art",
+        "placeholder": "assets/presets/styles/stardewvalley.jpg"
+      }
+    ]
+  }
+}

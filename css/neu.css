@@ -1,0 +1,87 @@
+
+.btn:focus,
+.btn:focus-visible,
+.icon-btn:focus,
+.icon-btn:focus-visible,
+.touch-input:focus,
+.touch-input:focus-visible {
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+* {
+    -webkit-tap-highlight-color: transparent;
+    -webkit-focus-ring-color: transparent;
+}
+
+
+
+/* Selected / Active Card */
+.card.active {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 50px;
+    background: #c0c0c0;
+    box-shadow: -5px -5px 10px #7f7f7f,
+                 5px 5px 10px #ffffff;
+    opacity: 1;
+    transform: scale(1);
+}
+
+/* Unselected / Preview Card */
+.card.preview {
+    border-radius: 50px;
+    background: #c0c0c0;
+    box-shadow: inset -8px -8px 16px #7f7f7f,
+                inset 8px 8px 16px #ffffff;
+    opacity: 1;
+    transform: scale(0.88);
+}
+
+/* Header Icon Buttons */
+.icon-btn {
+    border-radius: 50%;
+    background: #c0c0c0;
+    box-shadow: -4px -4px 8px #7f7f7f,
+                 4px 4px 8px #ffffff;
+    border: none;
+}
+
+/* Buttons */
+.btn {
+    border-radius: 64px;
+    background: #c0c0c0;
+    box-shadow: -6px -6px 12px #7f7f7f,
+                 6px 6px 12px #ffffff;
+    border: none;
+    color: #333;
+}
+
+/* Pressed Button State */
+.btn:active {
+    border-radius: 57px;
+    background: #c0c0c0;
+    box-shadow: inset -6px -6px 12px #7f7f7f,
+                inset 6px 6px 12px #ffffff;
+    transform: scale(0.98);
+}
+
+/* Input Box */
+.touch-input {
+    border-radius: 42px;
+    background: #c0c0c0;
+    box-shadow: inset -4px -4px 8px #7f7f7f,
+                inset 4px 4px 8px #ffffff;
+    border: none;
+    color: #444;
+}
+
+.touch-input::placeholder {
+    color: #888;
+}
+
+.touch-input:focus {
+    outline: none;
+    box-shadow: inset -4px -4px 8px #7f7f7f,
+                inset 4px 4px 8px #ffffff;
+}
