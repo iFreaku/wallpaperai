@@ -8,8 +8,8 @@ function buildPrompt(subject, style, userTouch = '') {
     const touch = userTouch.trim() ? `, ${userTouch.trim()}` : '';
 
     return `
-${subject.prompt},
-${style.prompt},
+${subject.prompt}, reimagined in
+${style.prompt} style,
 centered composition, depth, cinematic lighting,
 high detail, sharp focus, wallpaper
 ${touch}
