@@ -246,7 +246,7 @@
       {
         "name": "8 Bit Pixel Art",
         "placeholder": "assets/presets/styles/pixel.jpg",
-        "prompt": "8-bit pixel art, blocky pixels, retro game style, low resolution"
+        "prompt": "8-bit 2D pixel art, 2D blocky pixels, 2D retro game style"
       },
       {
         "name": "Minecraft",
