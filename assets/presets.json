@@ -38,11 +38,11 @@
         "placeholder": "assets/presets/subjects/desert.jpg"
       },
       {
-        "name": "Aurora",
+        "name": "Aurora Borealis",
         "placeholder": "assets/presets/subjects/aurora.jpg"
       },
       {
-        "name": "Birds",
+        "name": "Bird",
         "placeholder": "assets/presets/subjects/birds.jpg"
       },
       {
@@ -50,7 +50,7 @@
         "placeholder": "assets/presets/subjects/fish.jpg"
       },
       {
-        "name": "Animals",
+        "name": "Animal",
         "placeholder": "assets/presets/subjects/animals.jpg"
       },
       {
@@ -62,7 +62,7 @@
         "placeholder": "assets/presets/subjects/underwater.jpg"
       },
       {
-        "name": "Architecture",
+        "name": "Architecture or Buidlings",
         "placeholder": "assets/presets/subjects/architecture.jpg"
       },
       {
@@ -74,11 +74,11 @@
         "placeholder": "assets/presets/subjects/crystals.jpg"
       },
       {
-        "name": "Cars",
+        "name": "Car",
         "placeholder": "assets/presets/subjects/cars.jpg"
       },
       {
-        "name": "Bikes",
+        "name": "MotorBike",
         "placeholder": "assets/presets/subjects/bikes.jpg"
       },
       {
@@ -94,7 +94,7 @@
         "placeholder": "assets/presets/subjects/fireflies.jpg"
       },
       {
-        "name": "Misty Woods",
+        "name": "Misty Woods Forest",
         "placeholder": "assets/presets/subjects/mistywoods.jpg"
       }
     ],
@@ -144,7 +144,7 @@
         "placeholder": "assets/presets/styles/vintage.jpg"
       },
       {
-        "name": "Sketch",
+        "name": "Pencil Sketch",
         "placeholder": "assets/presets/styles/sketch.jpg"
       },
       {
@@ -200,7 +200,7 @@
         "placeholder": "assets/presets/styles/pixel.jpg"
       },
       {
-        "name": "Minecraft",
+        "name": "Minecraft, Blocky",
         "placeholder": "assets/presets/styles/minecraft.jpg"
       },
       {
