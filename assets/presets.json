@@ -3,209 +3,260 @@
     "subjects": [
       {
         "name": "Sky",
-        "placeholder": "assets/presets/subjects/sky.jpg"
+        "placeholder": "assets/presets/subjects/sky.jpg",
+        "prompt": "open sky, clouds, atmospheric depth, natural light"
       },
       {
         "name": "Terrain",
-        "placeholder": "assets/presets/subjects/terrain.jpg"
+        "placeholder": "assets/presets/subjects/terrain.jpg",
+        "prompt": "expansive terrain, varied landscape, depth, natural environment"
       },
       {
         "name": "Still Life",
-        "placeholder": "assets/presets/subjects/stilllife.jpg"
+        "placeholder": "assets/presets/subjects/stilllife.jpg",
+        "prompt": "still life composition, arranged objects, soft lighting, detailed textures"
       },
       {
         "name": "Iridescence",
-        "placeholder": "assets/presets/subjects/iridescence.jpg"
+        "placeholder": "assets/presets/subjects/iridescence.jpg",
+        "prompt": "iridescent surfaces, shifting colors, reflective light, glossy textures"
       },
       {
         "name": "Floral",
-        "placeholder": "assets/presets/subjects/floral.jpg"
+        "placeholder": "assets/presets/subjects/floral.jpg",
+        "prompt": "flowers, petals, botanical details, soft natural lighting"
       },
       {
         "name": "Ocean",
-        "placeholder": "assets/presets/subjects/ocean.jpg"
+        "placeholder": "assets/presets/subjects/ocean.jpg",
+        "prompt": "vast ocean, waves, water reflections, horizon, depth"
       },
       {
         "name": "Forest",
-        "placeholder": "assets/presets/subjects/forest.jpg"
+        "placeholder": "assets/presets/subjects/forest.jpg",
+        "prompt": "dense forest, tall trees, layered foliage, natural light"
       },
       {
         "name": "Galaxy",
-        "placeholder": "assets/presets/subjects/galaxy.jpg"
+        "placeholder": "assets/presets/subjects/galaxy.jpg",
+        "prompt": "spiral galaxy, stars, cosmic dust, deep space"
       },
       {
         "name": "Desert",
-        "placeholder": "assets/presets/subjects/desert.jpg"
+        "placeholder": "assets/presets/subjects/desert.jpg",
+        "prompt": "desert landscape, sand dunes, vast emptiness, heat haze"
       },
       {
         "name": "Aurora Borealis",
-        "placeholder": "assets/presets/subjects/aurora.jpg"
+        "placeholder": "assets/presets/subjects/aurora.jpg",
+        "prompt": "aurora borealis, glowing sky waves, night sky, atmospheric lights"
       },
       {
         "name": "Bird",
-        "placeholder": "assets/presets/subjects/birds.jpg"
+        "placeholder": "assets/presets/subjects/birds.jpg",
+        "prompt": "bird, feathers, wings, natural pose, detailed plumage"
       },
       {
         "name": "Fish",
-        "placeholder": "assets/presets/subjects/fish.jpg"
+        "placeholder": "assets/presets/subjects/fish.jpg",
+        "prompt": "fish, underwater movement, fins, aquatic environment"
       },
       {
         "name": "Animal",
-        "placeholder": "assets/presets/subjects/animals.jpg"
+        "placeholder": "assets/presets/subjects/animals.jpg",
+        "prompt": "animal, natural habitat, detailed fur or skin, lifelike pose"
       },
       {
         "name": "Mountains",
-        "placeholder": "assets/presets/subjects/mountains.jpg"
+        "placeholder": "assets/presets/subjects/mountains.jpg",
+        "prompt": "mountain range, peaks, atmospheric depth, landscape view"
       },
       {
         "name": "Underwater",
-        "placeholder": "assets/presets/subjects/underwater.jpg"
+        "placeholder": "assets/presets/subjects/underwater.jpg",
+        "prompt": "underwater scene, light rays through water, aquatic depth, particles"
       },
       {
-        "name": "Architecture or Buidlings",
-        "placeholder": "assets/presets/subjects/architecture.jpg"
+        "name": "Architecture or Buildings",
+        "placeholder": "assets/presets/subjects/architecture.jpg",
+        "prompt": "architectural structures, buildings, perspective lines, urban or classic design"
       },
       {
         "name": "Cherry Blossom",
-        "placeholder": "assets/presets/subjects/cherryblossom.jpg"
+        "placeholder": "assets/presets/subjects/cherryblossom.jpg",
+        "prompt": "cherry blossoms, pink petals, soft wind, seasonal bloom"
       },
       {
         "name": "Crystals",
-        "placeholder": "assets/presets/subjects/crystals.jpg"
+        "placeholder": "assets/presets/subjects/crystals.jpg",
+        "prompt": "crystals, reflective surfaces, geometric facets, light refraction"
       },
       {
         "name": "Car",
-        "placeholder": "assets/presets/subjects/cars.jpg"
+        "placeholder": "assets/presets/subjects/cars.jpg",
+        "prompt": "car, sleek design, reflections, dynamic angle"
       },
       {
-        "name": "MotorBike",
-        "placeholder": "assets/presets/subjects/bikes.jpg"
+        "name": "Motorbike",
+        "placeholder": "assets/presets/subjects/bikes.jpg",
+        "prompt": "motorbike, mechanical details, metallic surfaces, dynamic composition"
       },
       {
         "name": "Botanical",
-        "placeholder": "assets/presets/subjects/botanical.jpg"
+        "placeholder": "assets/presets/subjects/botanical.jpg",
+        "prompt": "botanical elements, plants, leaves, organic textures"
       },
       {
         "name": "Space",
-        "placeholder": "assets/presets/subjects/space.jpg"
+        "placeholder": "assets/presets/subjects/space.jpg",
+        "prompt": "outer space, stars, nebula, cosmic depth"
       },
       {
         "name": "Fireflies",
-        "placeholder": "assets/presets/subjects/fireflies.jpg"
+        "placeholder": "assets/presets/subjects/fireflies.jpg",
+        "prompt": "fireflies, glowing particles, night environment, soft illumination"
       },
       {
         "name": "Misty Woods Forest",
-        "placeholder": "assets/presets/subjects/mistywoods.jpg"
+        "placeholder": "assets/presets/subjects/mistywoods.jpg",
+        "prompt": "misty forest, fog, soft light rays, atmospheric depth"
       }
     ],
     "styles": [
       {
         "name": "Black & White",
-        "placeholder": "assets/presets/styles/black_white.jpg"
+        "placeholder": "assets/presets/styles/black_white.jpg",
+        "prompt": "monochrome, black and white, high contrast, deep shadows, no color"
       },
       {
         "name": "Oil Painting",
-        "placeholder": "assets/presets/styles/oilpainting.jpg"
+        "placeholder": "assets/presets/styles/oilpainting.jpg",
+        "prompt": "oil painting, visible brush strokes, rich texture, classical style"
       },
       {
         "name": "Ink",
-        "placeholder": "assets/presets/styles/ink.jpg"
+        "placeholder": "assets/presets/styles/ink.jpg",
+        "prompt": "ink drawing, bold lines, high contrast, minimal shading"
       },
       {
         "name": "Modernist",
-        "placeholder": "assets/presets/styles/modernist.jpg"
+        "placeholder": "assets/presets/styles/modernist.jpg",
+        "prompt": "modernist art, abstract forms, bold composition, experimental design"
       },
       {
         "name": "Photograph",
-        "placeholder": "assets/presets/styles/photograph.jpg"
+        "placeholder": "assets/presets/styles/photograph.jpg",
+        "prompt": "realistic photograph, natural lighting, depth of field, high detail"
       },
       {
         "name": "2D Minimal Vector Graphics",
-        "placeholder": "assets/presets/styles/graphic.jpg"
+        "placeholder": "assets/presets/styles/graphic.jpg",
+        "prompt": "flat vector art, clean lines, simple shapes, minimal shading"
       },
       {
         "name": "Watercolor",
-        "placeholder": "assets/presets/styles/watercolor.jpg"
+        "placeholder": "assets/presets/styles/watercolor.jpg",
+        "prompt": "watercolor painting, soft edges, fluid colors, light textures"
       },
       {
         "name": "Neon",
-        "placeholder": "assets/presets/styles/neon.jpg"
+        "placeholder": "assets/presets/styles/neon.jpg",
+        "prompt": "neon glow, bright lighting, dark background, glowing edges"
       },
       {
         "name": "Minimal",
-        "placeholder": "assets/presets/styles/minimal.jpg"
+        "placeholder": "assets/presets/styles/minimal.jpg",
+        "prompt": "minimalist, clean composition, lots of empty space, simple forms"
       },
       {
         "name": "Cinematic",
-        "placeholder": "assets/presets/styles/cinematic.jpg"
+        "placeholder": "assets/presets/styles/cinematic.jpg",
+        "prompt": "cinematic lighting, dramatic shadows, depth, film-like atmosphere"
       },
       {
         "name": "Vintage",
-        "placeholder": "assets/presets/styles/vintage.jpg"
+        "placeholder": "assets/presets/styles/vintage.jpg",
+        "prompt": "vintage style, faded tones, film grain, retro aesthetic"
       },
       {
         "name": "Pencil Sketch",
-        "placeholder": "assets/presets/styles/sketch.jpg"
+        "placeholder": "assets/presets/styles/sketch.jpg",
+        "prompt": "pencil sketch, fine lines, shading, hand-drawn look"
       },
       {
         "name": "Dark",
-        "placeholder": "assets/presets/styles/dark.jpg"
+        "placeholder": "assets/presets/styles/dark.jpg",
+        "prompt": "dark tones, low lighting, moody atmosphere, deep shadows"
       },
       {
         "name": "Cyberpunk",
-        "placeholder": "assets/presets/styles/cyberpunk.jpg"
+        "placeholder": "assets/presets/styles/cyberpunk.jpg",
+        "prompt": "futuristic city, neon lights, rain reflections, high contrast, dystopian mood"
       },
       {
         "name": "Lo-Fi",
-        "placeholder": "assets/presets/styles/lo-fi.jpg"
+        "placeholder": "assets/presets/styles/lo-fi.jpg",
+        "prompt": "lo-fi aesthetic, soft lighting, cozy atmosphere, grainy texture"
       },
       {
         "name": "3D Render",
-        "placeholder": "assets/presets/styles/3drender.jpg"
+        "placeholder": "assets/presets/styles/3drender.jpg",
+        "prompt": "3D render, realistic lighting, smooth surfaces, high detail"
       },
       {
         "name": "Nostalgic",
-        "placeholder": "assets/presets/styles/nostalgic.jpg"
+        "placeholder": "assets/presets/styles/nostalgic.jpg",
+        "prompt": "nostalgic mood, warm tones, soft lighting, emotional atmosphere"
       },
       {
         "name": "Art Deco",
-        "placeholder": "assets/presets/styles/artdeco.jpg"
+        "placeholder": "assets/presets/styles/artdeco.jpg",
+        "prompt": "art deco style, geometric patterns, elegant lines, decorative design"
       },
       {
         "name": "Dreamy",
-        "placeholder": "assets/presets/styles/dreamy.jpg"
+        "placeholder": "assets/presets/styles/dreamy.jpg",
+        "prompt": "dreamy atmosphere, soft glow, haze, surreal lighting"
       },
       {
         "name": "Geometric",
-        "placeholder": "assets/presets/styles/geometric.jpg"
+        "placeholder": "assets/presets/styles/geometric.jpg",
+        "prompt": "geometric shapes, symmetry, structured patterns, abstract design"
       },
       {
         "name": "Textured",
-        "placeholder": "assets/presets/styles/textured.jpg"
+        "placeholder": "assets/presets/styles/textured.jpg",
+        "prompt": "rich textures, surface detail, tactile feel, layered materials"
       },
       {
         "name": "Impressionist",
-        "placeholder": "assets/presets/styles/impressionist.jpg"
+        "placeholder": "assets/presets/styles/impressionist.jpg",
+        "prompt": "impressionist painting, soft brush strokes, light focus, artistic blur"
       },
       {
         "name": "Surreal",
-        "placeholder": "assets/presets/styles/surreal.jpg"
+        "placeholder": "assets/presets/styles/surreal.jpg",
+        "prompt": "surreal imagery, dreamlike elements, unexpected composition"
       },
       {
         "name": "Ethereal",
-        "placeholder": "assets/presets/styles/ethereal.jpg"
+        "placeholder": "assets/presets/styles/ethereal.jpg",
+        "prompt": "ethereal mood, soft light, airy atmosphere, gentle glow"
       },
       {
         "name": "8 Bit Pixel Art",
-        "placeholder": "assets/presets/styles/pixel.jpg"
+        "placeholder": "assets/presets/styles/pixel.jpg",
+        "prompt": "8-bit pixel art, blocky pixels, retro game style, low resolution"
       },
       {
-        "name": "Minecraft, Blocky",
-        "placeholder": "assets/presets/styles/minecraft.jpg"
+        "name": "Minecraft",
+        "placeholder": "assets/presets/styles/minecraft.jpg",
+        "prompt": "voxel style, blocky shapes, cubic forms, game-like world"
       },
       {
-        "name": "Stardew Valley, Pixel Art",
-        "placeholder": "assets/presets/styles/stardewvalley.jpg"
+        "name": "Stardew Valley",
+        "placeholder": "assets/presets/styles/stardewvalley.jpg",
+        "prompt": "pixel art, cozy aesthetic, soft palette, 16-bit style"
       }
     ]
   }
