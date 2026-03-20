@@ -64,7 +64,6 @@
     box-shadow: -6px -6px 12px #7f7f7f, 6px 6px 12px #ffffff;
     transition: transform 0.2s;
     position: relative;
-    overflow: hidden;
     margin-top: 10px;
 }
 
